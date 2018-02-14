@@ -10,7 +10,7 @@ print ("4. Oil and Gas")
 print ("5. Unconventional")
 option_1 = 0
 while option_1 <= 0 or option_1 > 5:
-    option_1 = int(input("Insert your input :"))
+    option_1 = int(input("Insert your input : "))
     if option_1 <= 0 or option_1 > 5:
         print ("Insert a correct option (1-5)")
 
@@ -24,30 +24,35 @@ if option_1 == 1:
     print ("6. Coal")
     option_2 = 0
     while option_2 <= 0 or option_2 > 6:
-        option_2 = int(input("Insert your input :"))
+        option_2 = int(input("Insert your input : "))
         if option_2 <= 0 or option_2 > 6:
             print ("Insert a correct option (1-6)")
         if option_2 == 1:
+            print ("Via ?")
             print ("1. Air")
             print ("2. Ground")
             option_3 = 0
             while option_3 <= 0 or option_3 > 2:
-                option_3 = int(input("Insert your input :"))
+                option_3 = int(input("Insert your input : "))
                 if option_3 <= 0 or option_3 > 2:
                     print ("Insert a correct option (1-2)")
             if option_3 == 1:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, Radiometric")
                 else:
-                    print ("Magnetic, EM, and Gravity")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Gravity")
             else:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
@@ -56,183 +61,224 @@ if option_1 == 1:
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
+                    print ("Proper Method : ")
                     print ("Magnetic")
                 else:
-                    print ("Magnetic, EM, Electrical, and Gravity")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Electrical, Gravity")
                 
         elif option_2 == 2:
+            print ("Via ?")
             print ("1. Air")
             print ("2. Ground")
             option_3 = 0
             while option_3 <= 0 or option_3 > 2:
-                option_3 = int(input("Insert your input :"))
+                option_3 = int(input("Insert your input : "))
                 if option_3 <= 0 or option_3 > 2:
                     print ("Insert a correct option (1-2)")
             if option_3 == 1:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic, EM, and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Radiometric")
                 else:
-                    print ("EM and Radiometric")
+                    print ("Proper Method : ")
+                    print ("EM, Radiometric")
             else:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic, EM, Gravity, and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Gravity, Radiometric")
                 else:
-                    print ("EM and Radiometric")
+                    print ("Proper Method : ")
+                    print ("EM, Radiometric")
         elif option_2 == 3:
+            print ("Via ?")
             print ("1. Air")
             print ("2. Ground")
             option_3 = 0
             while option_3 <= 0 or option_3 > 2:
-                option_3 = int(input("Insert your input :"))
+                option_3 = int(input("Insert your input : "))
                 if option_3 <= 0 or option_3 > 2:
                     print ("Insert a correct option (1-2)")
             if option_3 == 1:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
+                    print ("Proper Method : ")
                     print ("Magnetic and Radiometric")
                 else:
+                    print ("Proper Method : ")
                     print ("Magnetic and Radiometric")
             else:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, Radiometric")
                 else:
-                    print ("Magnetic, Electric, and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, Electrical, Radiometric")
         elif option_2 == 4:
+            print ("Via ?")
             print ("1. Air")
             print ("2. Ground")
             option_3 = 0
             while option_3 <= 0 or option_3 > 2:
-                option_3 = int(input("Insert your input :"))
+                option_3 = int(input("Insert your input : "))
                 if option_3 <= 0 or option_3 > 2:
                     print ("Insert a correct option (1-2)")
             if option_3 == 1:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
+                    print ("Proper Method : ")
                     print ("Magnetic")
                 else:
-                    print ("Magnetic, EM, and Gravity")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Gravity")
             else:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic, EM, and Gravity")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Gravity")
                 else:
-                    print ("Magnetic, EM, and Gravity")
+                    print ("Proper Method : ")
+                    print ("Magnetic, EM, Gravity")
         elif option_2 == 5:
+            print ("Via ?")
             print ("1. Air")
             print ("2. Ground")
             option_3 = 0
             while option_3 <= 0 or option_3 > 2:
-                option_3 = int(input("Insert your input :"))
+                option_3 = int(input("Insert your input : "))
                 if option_3 <= 0 or option_3 > 2:
                     print ("Insert a correct option (1-2)")
             if option_3 == 1:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, Radiometric")
                 else:
-                    print ("EM and Radiometric")
+                    print ("Proper Method : ")
+                    print ("EM, Radiometric")
             else:
+                print ("Purpose ?")
                 print ("1. Geological Framework")
                 print ("2. Direct Targeting")
                 option_4= 0
                 while option_4 <= 0 or option_4 > 2:
-                    option_4 = int(input("Insert your input :"))
+                    option_4 = int(input("Insert your input : "))
                     if option_4 <= 0 or option_4 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_4 == 1:
-                    print ("Magnetic and Radiometric")
+                    print ("Magnetic, Radiometric")
                 else:
-                    print ("Magnetic, Electrical, and Radiometric")
+                    print ("Proper Method : ")
+                    print ("Magnetic, Electrical, Radiometric")
         elif option_2 == 6:
+            print ("Proper Method : ")
             print ("Gravity, Seismic Reflection, Seismic Refraction, and Magnetic ")
 elif option_1 == 2:
+    print ("More Spesific ?")
     print ("1. Inorganic Contaminant")
     print ("2. Man Made Buried Object")
     print ("3. Natural Condition")
     option_2= 0
     while option_2 <=0 or option_2 > 3:
-        option_2 = int(input("Insert your input :"))
+        option_2 = int(input("Insert your input : "))
         if option_2 <= 0 or option_2 > 3:
             print ("Insert a correct option (1-3)")
     if option_2 == 1:
+        print ("Purpose ?")
         print ("1. Soil Salinity")
         print ("2. Salt Water Intrusion")
         print ("3. Land Fill")
         option_3 = 0
         while option_3 <= 0 or option_3 > 3:
-            option_3 = int(input("Insert your input :"))
+            option_3 = int(input("Insert your input : "))
             if option_3 <= 0 or option_3 > 3:
                 print ("Insert a correct option (1-3)")
         if option_3 == 1:
+            print ("Proper Method : ")
             print ("DC Resistivity and Frequency Domain EM")
         elif option_3 == 2:
-            print ("DC Resistivity, Frequency Domain EM, and Time Domain EM")
+            print ("Proper Method : ")
+            print ("DC Resistivity, Frequency Domain EM, Time Domain EM")
         elif option_3 == 3:
+            print ("Proper Method : ")
             print ("DC Resistivity, Frequency Domain EM, Time Domain EM")
     elif option_2 == 2:
+        print ("Purpose ?")
         print ("1. Utilities (Cable, Pipe, etc)")
         print ("2. Abandoned Wells")
         print ("3. Forensic")
         print ("4. Archeology")
         option_3 = 0
         while option_3 <=0 or option_3 > 4:
-            option_3 = int(input("Insert your input :"))
+            option_3 = int(input("Insert your input : "))
             if option_3 <=0 or option_3 > 4:
                 print ("Insert a correct option (1-4)")
         if option_3 == 1:
+            print ("Proper Method : ")
             print ("Ground Penetrating Radar (GPR)")
         elif option_3 == 2:
+            print ("Proper Method : ")
             print ("Magnetic")
         elif option_3 == 3:
+            print ("Proper Method : ")
             print ("Frequency Domain EM")
         elif option_3 == 4:
+            print ("Proper Method : ")
             print ("Frequency Domain EM, GPR, Magnetic")
     elif option_2 == 3:
+        print ("Purpose ?")
         print ("1. Depth to Water Table")
         print ("2. Karst")
         print ("3. Buried Channel")
@@ -240,22 +286,27 @@ elif option_1 == 2:
         print ("4. Sinkhole")
         print ("5. Dam/Lagoon Leakage")
         print ("6. Buried Fault/Dyke")
-        print ("7.Starigraphical")
+        print ("7. Stratigraphical")
         option_3 = 0
         while option_3 <=0 or option_3 > 7:
-            option_3 = int(input("Insert your input :"))
+            option_3 = int(input("Insert your input : "))
             if option_3 <=0 or option_3 > 7:
                 print ("Insert a correct option (1-7)")
         if option_3 == 1:
-            print ("DC Resistivity, Seismic Refraction, and GPR")
+            print ("Proper Method : ")
+            print ("DC Resistivity, Seismic Refraction, GPR")
         elif option_3 == 2:
+            print ("Proper Method : ")
             print ("Microgravity and GPR")
         elif option_3 == 3:
-            print ("DC Resistivity and Seismic Refraction")
+            print ("Proper Method : ")
+            print ("DC Resistivity, Seismic Refraction")
         elif option_3 == 4:
-            print ("GPR and Microgravity")
+            print ("Proper Method : ")
+            print ("GPR, Microgravity")
         elif option_3 == 5:
-            print ("DC Resistivity, Seismic, and Magnetic")
+            print ("Proper Method : ")
+            print ("DC Resistivity, Seismic, Magnetic")
         elif option_3 == 6:
             print ("Sediment Overbedrock")
             print ("1. Sand and Gravel Overlaying Bedrock, Water Table, Low in Sand & Gravel")
@@ -263,76 +314,92 @@ elif option_1 == 2:
             print ("3. Clay Overlaying Bedrock")
             option_4 = 0
             while option_4 <=0 or option_4 > 3:
-                option_4 = int(input("Insert your input :"))
+                option_4 = int(input("Insert your input : "))
                 if option_4 <=0 or option_4 > 3:
                     print ("Insert a correct option (1-3)")
             if option_4 == 1:
+                print ("Where ?")
                 print ("1. Land")
                 print ("2. Marine")
                 option_5 = 0
                 while option_5 <=0 or option_5 > 2:
-                    option_5 = int(input("Insert your input :"))
+                    option_5 = int(input("Insert your input : "))
                     if option_5 <=0 or option_5 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_5 == 1:
+                    print ("Proper Method : ")
                     print ("Seismic Refraction")
                 else:
+                    print ("Proper Method : ")
                     print ("Continuous Reflection Seismic Profilling (CRSP)")
             elif option_4 == 2:
+                print ("Where ?")
                 print ("1. Land")
                 print ("2. Marine")
                 option_5 = 0
                 while option_5 <=0 or option_5 > 2:
-                    option_5 = int(input("Insert your input :"))
+                    option_5 = int(input("Insert your input : "))
                     if option_5 <=0 or option_5 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_5 == 1:
+                    print ("Proper Method : ")
                     print ("Resistivity")
                 else:
+                    print ("Proper Method : ")
                     print ("Continuous Reflection Seismic Profilling (CRSP)")
             elif option_4 == 3:
+                print ("Where ?")
                 print ("1. Land")
                 print ("2. Marine")
                 option_5 = 0
                 while option_5 <=0 or option_5 > 2:
-                    option_5 = int(input("Insert your input :"))
+                    option_5 = int(input("Insert your input : "))
                     if option_5 <=0 or option_5 > 2:
                         print ("Insert a correct option (1-2)")
                 if option_5 == 1:
+                    print ("Proper Method : ")
                     print ("Resistivity, Seismic Refraction")
                 else:
+                    print ("Proper Method : ")
                     print ("Continuous Reflection Seismic Profilling (CRSP)")
 elif option_1 == 3:
+    print ("Purpose ?")
     print ("1. Exploration")
     print ("2. Deveploment")
     option_2 = 0
-    while option_2 <= 0 or option > 2:
-        option_2 = int(input("Insert your input :"))
+    while option_2 <=0 or option_2 > 2:
+        option_2 = int(input("Insert your input : "))
         if option_2 <=0 or option_2 > 2:
             print ("Insert a correct option (1-2)")
     if option_2 == 1:
+        print ("More Spesific")
         print ("1. Clay Cap Distribution")
         print ("2. Delineation Reservation & Basement")
         option_3 = 0
         while option_3 <=0 or option_3 > 2:
-            option_3 = int(input("Insert your input :"))
+            option_3 = int(input("Insert your input : "))
             if option_3 <=0 or option_3 > 2:
                 print ("Insert a correct option (1-2)")
         if option_3 == 1:
+            print ("Proper Method : ")
             print ("MT, Gravity, Time Domain EM")
         else:
+            print ("Proper Method : ")
             print ("MT, Gravity, Magnetic, Passive Seismic, Time Domain EM")
     else:
+        print ("More Spesific")
         print ("1. Well Target Zone")
         print ("2. Monitoring")
         option_3 = 0
         while option_3 <=0 or option_3 > 2:
-            option_3 = int(input("Insert your input :"))
-            if option_2 <=0 or option_3 > 2:
+            option_3 = int(input("Insert your input : "))
+            if option_3 <=0 or option_3 > 2:
                 print ("Insert a correct option (1-2)")
         if option_3 == 1:
+            print ("Proper Method : ")
             print ("Passive Seismic, MT, and Gravity")
         else:
+            print ("Proper Method : ")
             print ("Microearthquake, Microgravity")
 elif option_1 == 4:
     print ("Exploration")
@@ -341,24 +408,29 @@ elif option_1 == 4:
     print ("3. Structural Mapping")
     option_2 = 0
     while option_2 <=0 or option_2 > 3:
-        option_2 = int(input("Insert your input :"))
+        option_2 = int(input("Insert your input : "))
         if option_2 <=0 or option_2 > 3:
             print ("Insert a correct option (1-3)")
     if option_2 == 1:
+        print ("Proper Method : ")
         print ("Seismic Reflection")
     elif option == 2:
+        print ("Proper Method : ")
         print ("Gravity, Seismic Reflection")
     else:
+        print ("Proper Method : ")
         print ("Gravity, Seismic Reflection, Magnetic, Seismic Refraction")
-else:
-    print ("1.Shale Gas and Shale Oil")
+elif option_1 == 5:
+    print ("1. Shale Gas and Shale Oil")
     print ("2. Hydrate Gas")
     option_2 = 0
-    while option_2 <=0 or option > 2:
-        option_2 = int(input("Insert a correct option (1-2)"))
-        if option_2 <=0 or option > 2:
+    while option_2 <=0 or option_2 > 2:
+        option_2 = int(input("Insert your input : "))
+        if option_2 <=0 or option_2 > 2:
             print ("Insert a correct option (1-2)")
     if option_2 == 1:
+        print ("Proper Method : ")
         print ("Seismic Reflection, Gravity")
     else:
+        print ("Proper Method : ")
         print ("Seismic Reflaction")
