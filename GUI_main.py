@@ -17,8 +17,8 @@
 # Aditya Prabowo - 12314062
 # Maharditio Chairul S. - 12314063
 
-import tkinter as tk                # 
-from tkinter import font  as tkfont # 
+import tkinter as tk                #
+from tkinter import font  as tkfont #
 
 class SampleApp(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -64,7 +64,7 @@ class StartPage(tk.Frame):
         label.pack(side="top", fill="x", pady=10)
 
         button1 = tk.Button(self, text="Start!",
-                            command=lambda: controller.show_frame("PageOne"))
+                            command=lambda: controller.show_frame("MainPage"))
         button1.pack()
 
 
@@ -91,13 +91,13 @@ class MainPage(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageG")
-            elif (a.get() == 4)
+            elif (a.get() == 4):
                 controller.show_frame("PageO")
-            elif (a.get() == 5)
+            elif (a.get() == 5):
                 controller.show_frame("PageU")
             else:
                 controller.show_frame("MainPage")
@@ -141,13 +141,13 @@ class PageM(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM1")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM2")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageM3")
-            elif (a.get() == 4)
+            elif (a.get() == 4):
                 controller.show_frame("PageM4")
-            elif (a.get() == 5)
+            elif (a.get() == 5):
                 controller.show_frame("PageM5")
             elif (a.get() == 6):
                 controller.show_frame("PageM6")
@@ -188,7 +188,7 @@ class PageM1(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM11")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM12")
 
         tk.Label(self,
@@ -225,7 +225,7 @@ class PageM2(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM21")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM22")
 
         tk.Label(self,
@@ -263,7 +263,7 @@ class PageM3(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM31")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM32")
 
         tk.Label(self,
@@ -300,7 +300,7 @@ class PageM4(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM41")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM42")
 
         tk.Label(self,
@@ -337,7 +337,7 @@ class PageM5(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM51")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM52")
 
         tk.Label(self,
@@ -383,7 +383,7 @@ class PageM11(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM111")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM112")
 
         tk.Label(self,
@@ -421,7 +421,7 @@ class PageM12(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM121")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM122")
 
         tk.Label(self,
@@ -459,7 +459,7 @@ class PageM21(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM211")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM212")
 
         tk.Label(self,
@@ -497,7 +497,7 @@ class PageM22(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM221")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM222")
 
         tk.Label(self,
@@ -535,7 +535,7 @@ class PageM31(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM311")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM312")
 
         tk.Label(self,
@@ -573,7 +573,7 @@ class PageM32(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM321")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM322")
 
         tk.Label(self,
@@ -611,7 +611,7 @@ class PageM41(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM411")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM412")
 
         tk.Label(self,
@@ -649,7 +649,7 @@ class PageM42(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM421")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM422")
 
         tk.Label(self,
@@ -687,7 +687,7 @@ class PageM51(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM511")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM512")
 
         tk.Label(self,
@@ -725,7 +725,7 @@ class PageM52(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM521")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageM522")
 
         tk.Label(self,
@@ -792,8 +792,8 @@ class PageM211(tk.Frame):
                          """The Proper Method for your Survey is
 Magnetic, EM, Radiometric """, font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageM212(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -802,8 +802,8 @@ class PageM212(tk.Frame):
                          """The Proper Method for your Survey is
 EM, Radiometric """, font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageM221(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -812,8 +812,8 @@ class PageM221(tk.Frame):
                          """The Proper Method for your Survey is
  Magnetic, EM, Gravity, Radiometric """, font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageM222(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -822,8 +822,8 @@ class PageM222(tk.Frame):
                          """The Proper Method for your Survey is
 EM, Radiometric """, font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageM311(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -832,8 +832,8 @@ class PageM311(tk.Frame):
                          """The Proper Method for your Survey is
 Magnetic, Radiometric """, font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageM312(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -842,8 +842,8 @@ class PageM312(tk.Frame):
                          """The Proper Method for your Survey is
 Magnetic, Radiometric """, font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageM321(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -963,9 +963,9 @@ class PageGTL(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL1")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL2")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageGTL3")
 
         tk.Label(self,
@@ -1003,9 +1003,9 @@ class PageGTL1(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL11")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL12")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageGTL13")
 
         tk.Label(self,
@@ -1045,11 +1045,11 @@ class PageGTL2(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL21")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL22")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageGTL23")
-            elif (a.get() == 4)
+            elif (a.get() == 4):
                 controller.show_frame("PageGTL24")
 
         tk.Label(self,
@@ -1092,17 +1092,17 @@ class PageGTL3(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL31")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL32")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageGTL33")
-            elif (a.get() == 4)
+            elif (a.get() == 4):
                 controller.show_frame("PageGTL34")
-            elif (a.get() == 5)
+            elif (a.get() == 5):
                 controller.show_frame("PageGTL35")
-            elif (a.get() == 6)
+            elif (a.get() == 6):
                 controller.show_frame("PageGTL36")
-            elif (a.get() == 7)
+            elif (a.get() == 7):
                 controller.show_frame("PageGTL37")
         tk.Label(self,
                  text="""More Choice : """,
@@ -1168,8 +1168,8 @@ class PageGTL22(tk.Frame):
                          """The Proper Method for your Survey is
 Magnetic""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageGTL23(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1178,8 +1178,8 @@ class PageGTL23(tk.Frame):
                          """The Proper Method for your Survey is
 Frequency Domain EM""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageGTL24(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1188,8 +1188,8 @@ class PageGTL24(tk.Frame):
                          """The Proper Method for your Survey is
 Frequency Domain EM, GPR, Time Domain EM""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageGTL31(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1198,8 +1198,8 @@ class PageGTL31(tk.Frame):
                          """The Proper Method for your Survey is
 DC Resistivity, Seismic Refraction, GPR""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageGTL32(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1208,8 +1208,8 @@ class PageGTL32(tk.Frame):
                          """The Proper Method for your Survey is
 Microgravity, GPR""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageGTL33(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1218,8 +1218,8 @@ class PageGTL33(tk.Frame):
                          """The Proper Method for your Survey is
 DC Resistivity, Seismic Refraction""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
-        
-        
+
+
 class PageGTL34(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1240,7 +1240,7 @@ Self Potential (SP)""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
 
 
-class PageGTL36tk.Frame):
+class PageGTL36(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
@@ -1268,7 +1268,7 @@ class PageGTL37(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL371")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL372")
 
         tk.Label(self,
@@ -1305,7 +1305,7 @@ class PageGTL371(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL3711")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL3712")
 
         tk.Label(self,
@@ -1323,8 +1323,8 @@ class PageGTL371(tk.Frame):
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
         button.pack()
-        
-        
+
+
 class PageGTL372(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
@@ -1343,7 +1343,7 @@ class PageGTL372(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageGTL3721")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageGTL3722")
 
         tk.Label(self,
@@ -1420,7 +1420,7 @@ class PageG(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageG1")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageG2")
 
         tk.Label(self,
@@ -1458,7 +1458,7 @@ class PageG1(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageG11")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageG12")
 
         tk.Label(self,
@@ -1496,7 +1496,7 @@ class PageG2(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageG21")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageG22")
 
         tk.Label(self,
@@ -1573,9 +1573,9 @@ class PageO(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageO1")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageO2")
-            elif (a.get() == 3)
+            elif (a.get() == 3):
                 controller.show_frame("PageO3")
 
         tk.Label(self,
@@ -1641,7 +1641,7 @@ class PageU(tk.Frame):
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageU1")
-            elif (a.get() == 2)
+            elif (a.get() == 2):
                 controller.show_frame("PageU2")
 
         tk.Label(self,
