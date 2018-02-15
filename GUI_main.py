@@ -84,9 +84,6 @@ class MainPage(tk.Frame):
             "Unconventional"
         ]
 
-        def ShowChoice():
-            print(v.get())
-
         # Perlu Ganti
         def Next(a):
             if (a.get() == 1):
@@ -112,7 +109,7 @@ class MainPage(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -135,8 +132,8 @@ class PageM(tk.Frame):
             "Coal"
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -163,7 +160,7 @@ class PageM(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -182,8 +179,8 @@ class PageM1(tk.Frame):
             "Ground",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -201,7 +198,7 @@ class PageM1(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -219,8 +216,8 @@ class PageM2(tk.Frame):
             "Ground",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -238,7 +235,7 @@ class PageM2(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -257,8 +254,8 @@ class PageM3(tk.Frame):
             "Ground",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -276,7 +273,7 @@ class PageM3(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -294,8 +291,8 @@ class PageM4(tk.Frame):
             "Ground",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -313,7 +310,7 @@ class PageM4(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -331,8 +328,8 @@ class PageM5(tk.Frame):
             "Ground",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -350,7 +347,7 @@ class PageM5(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -377,8 +374,8 @@ class PageM11(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -396,7 +393,7 @@ class PageM11(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -415,8 +412,8 @@ class PageM12(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -434,7 +431,7 @@ class PageM12(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -453,8 +450,8 @@ class PageM21(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -472,7 +469,7 @@ class PageM21(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -491,8 +488,8 @@ class PageM22(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -510,7 +507,7 @@ class PageM22(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -529,8 +526,8 @@ class PageM31(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -548,7 +545,7 @@ class PageM31(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -567,8 +564,8 @@ class PageM32(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -586,7 +583,7 @@ class PageM32(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -605,8 +602,8 @@ class PageM41(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -624,7 +621,7 @@ class PageM41(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -643,8 +640,8 @@ class PageM42(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -662,7 +659,7 @@ class PageM42(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -681,8 +678,8 @@ class PageM51(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -700,7 +697,7 @@ class PageM51(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -719,8 +716,8 @@ class PageM52(tk.Frame):
             "Direct Targeting",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -738,7 +735,7 @@ class PageM52(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -957,8 +954,8 @@ class PageGTL(tk.Frame):
             "Natural Condition",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -978,7 +975,7 @@ class PageGTL(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -997,8 +994,8 @@ class PageGTL1(tk.Frame):
             "Landfill",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1018,7 +1015,7 @@ class PageGTL1(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1039,8 +1036,8 @@ class PageGTL2(tk.Frame):
             "Archeology",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1062,7 +1059,7 @@ class PageGTL2(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1086,8 +1083,8 @@ class PageGTL3(tk.Frame):
             "Statigraphical",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1114,7 +1111,7 @@ class PageGTL3(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1262,8 +1259,8 @@ class PageGTL37(tk.Frame):
             "Sand & Gravel Over Bedrock, Water Table, High in Sand & Gravel",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1281,7 +1278,7 @@ class PageGTL37(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1299,8 +1296,8 @@ class PageGTL371(tk.Frame):
             "Marine",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1318,7 +1315,7 @@ class PageGTL371(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1337,8 +1334,8 @@ class PageGTL372(tk.Frame):
             "Marine",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1356,7 +1353,7 @@ class PageGTL372(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1414,8 +1411,8 @@ class PageG(tk.Frame):
             "Development",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1433,7 +1430,7 @@ class PageG(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1452,8 +1449,8 @@ class PageG1(tk.Frame):
             "Delineation Reservoir & Basement",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1471,7 +1468,7 @@ class PageG1(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1490,8 +1487,8 @@ class PageG2(tk.Frame):
             "Monitoring (Injection, etc)",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1509,7 +1506,7 @@ class PageG2(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1567,8 +1564,8 @@ class PageO(tk.Frame):
             "Structural Mapping"
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1588,7 +1585,7 @@ class PageO(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
@@ -1635,8 +1632,8 @@ class PageU(tk.Frame):
             "Hydrate Gas",
         ]
 
-        def ShowChoice():
-            print(v.get())
+
+
 
         def Next(a):
             if (a.get() == 1):
@@ -1654,7 +1651,7 @@ class PageU(tk.Frame):
                           text=option,
                           padx = 20,
                           variable=v,
-                          command=ShowChoice,
+
                           value=val+1).pack(anchor=tk.W)
         button = tk.Button(self, text="Next",
                            command=lambda: Next(v))
