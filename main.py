@@ -1,7 +1,8 @@
 """
     Main program
 """
-# Tes
+# Expert System for Proper Geophysical Method
+# Kelompok 21 AI Perminyakan 2018
 print ("What do you looking for?")
 print ("1. Mining")
 print ("2. Geotechnical and Environmental")
