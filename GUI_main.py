@@ -58,7 +58,7 @@ class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
-        label = tk.Label(self, text="""Welcome to Expert PGM 
+        label = tk.Label(self, text="""Welcome to Expert PGM
 Terratory
 Kelompok 21 Kelas AI 2018""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
