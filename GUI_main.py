@@ -9,7 +9,7 @@
 #     print("Tkinter is easy to use!")
 #
 
-#Expert System for Proper Geophysical Method
+# Expert System for Proper Geophysical Method
 # Kelompok 21
 # Cessa Mutiara Aziz - 12314056
 # Rahman Fitra Perdana - 12314058
@@ -35,7 +35,6 @@ class SampleApp(tk.Tk):
         container.grid_columnconfigure(0, weight=1)
 
         self.frames = {}
-        # Perlu diganti
         for F in (StartPage, MainPage, PageM, PageM1, PageM2, PageM3, PageM4, PageM5, PageM6, PageM11, PageM12, PageM111, PageM112, PageM121, PageM122, PageM21, PageM22, PageM211, PageM212, PageM221, PageM222, PageM31, PageM32, PageM311, PageM312, PageM321, PageM322, PageM41, PageM42, PageM411, PageM412, PageM421, PageM422, PageM51, PageM52, PageM511, PageM512, PageM521, PageM522, PageGTL, PageGTL1, PageGTL11,PageGTL12, PageGTL13, PageGTL2, PageGTL21, PageGTL22, PageGTL23, PageGTL24, PageGTL3, PageGTL31, PageGTL32, PageGTL33, PageGTL34, PageGTL35, PageGTL36, PageGTL37, PageGTL371, PageGTL3711, PageGTL3712, PageGTL372, PageGTL3721, PageGTL3722, PageG, PageG1, PageG11, PageG12, PageG2, PageG21, PageG22, PageO, PageO1, PageO2, PageO3, PageU, PageU1, PageU2):
             page_name = F.__name__
             frame = F(parent=container, controller=self)
@@ -59,8 +58,9 @@ class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
-        label = tk.Label(self, text="""Welcome to Expert PGM
-        Kelompok 21""", font=controller.title_font)
+        label = tk.Label(self, text="""Welcome to Expert PGM 
+Terratory
+Kelompok 21 Kelas AI 2018""", font=controller.title_font)
         label.pack(side="top", fill="x", pady=10)
 
         button1 = tk.Button(self, text="Start!",
