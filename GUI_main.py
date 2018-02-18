@@ -1,14 +1,6 @@
 """
     GUI Script
 """
-# # Module Declaration
-# import tkinter as tk
-#
-# # Function Declaration
-# def write_slogan():
-#     print("Tkinter is easy to use!")
-#
-
 # Expert System for Proper Geophysical Method
 # Kelompok 21
 # Cessa Mutiara Aziz - 12314056
@@ -26,9 +18,6 @@ class SampleApp(tk.Tk):
         self.title("Expert PGM")
         self.title_font = tkfont.Font(family='Helvetica', size=18, weight="bold", slant="italic")
 
-        # the container is where we'll stack a bunch of frames
-        # on top of each other, then the one we want visible
-        # will be raised above the others
         container = tk.Frame(self)
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
@@ -40,9 +29,6 @@ class SampleApp(tk.Tk):
             frame = F(parent=container, controller=self)
             self.frames[page_name] = frame
 
-            # put all of the pages in the same location;
-            # the one on the top of the stacking order
-            # will be the one that is visible.
             frame.grid(row=0, column=0, sticky="nsew")
 
         self.show_frame("StartPage")
@@ -68,13 +54,12 @@ Kelompok 21 Kelas AI 2018""", font=controller.title_font)
         button1.pack()
 
 
-# Nama kelas ganti
 class MainPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Mining",
@@ -84,7 +69,6 @@ class MainPage(tk.Frame):
             "Unconventional"
         ]
 
-        # Perlu Ganti
         def Next(a):
             if (a.get() == 1):
                 controller.show_frame("PageM")
@@ -121,7 +105,7 @@ class PageM(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "VMS Deposit",
@@ -172,7 +156,7 @@ class PageM1(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Air",
@@ -209,7 +193,7 @@ class PageM2(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Air",
@@ -247,7 +231,7 @@ class PageM3(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Air",
@@ -284,7 +268,7 @@ class PageM4(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Air",
@@ -321,7 +305,7 @@ class PageM5(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Air",
@@ -367,7 +351,7 @@ class PageM11(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -405,7 +389,7 @@ class PageM12(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -443,7 +427,7 @@ class PageM21(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -481,7 +465,7 @@ class PageM22(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -519,7 +503,7 @@ class PageM31(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -557,7 +541,7 @@ class PageM32(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -595,7 +579,7 @@ class PageM41(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -633,7 +617,7 @@ class PageM42(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -671,7 +655,7 @@ class PageM51(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -709,7 +693,7 @@ class PageM52(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Geological Framework",
@@ -946,7 +930,7 @@ class PageGTL(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Inorganic Contaminant",
@@ -986,7 +970,7 @@ class PageGTL1(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Soil Salinity",
@@ -1027,7 +1011,7 @@ class PageGTL2(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Utilities (Cabel, Pipe, etc)",
@@ -1071,7 +1055,7 @@ class PageGTL3(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Depth to Water Table",
@@ -1252,7 +1236,7 @@ class PageGTL37(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Sand & Gravel Over Bedrock, Water Table, Low in Sand & Gravel",
@@ -1289,7 +1273,7 @@ class PageGTL371(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Land",
@@ -1327,7 +1311,7 @@ class PageGTL372(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Land",
@@ -1404,7 +1388,7 @@ class PageG(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Exploration",
@@ -1442,7 +1426,7 @@ class PageG1(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Clay Cap Distribution",
@@ -1480,7 +1464,7 @@ class PageG2(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Well Target Zone",
@@ -1556,7 +1540,7 @@ class PageO(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Delineation Reservoir Hydrocarbon",
@@ -1625,7 +1609,7 @@ class PageU(tk.Frame):
         tk.Frame.__init__(self, parent)
         self.controller = controller
         v = tk.IntVar()
-        v.set(1)  # initializing the choice, i.e. Python
+        v.set(1)  
 
         options = [
             "Shale gas & Oil",
